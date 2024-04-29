@@ -10,6 +10,8 @@ The following libraries are needed:
 * pickle
 * tqdm
 
+You must download the learned model parameters from the following link and put these under the subdirectory ``models`` in the same directory as ``testbench.ipynb``: https://drive.google.com/drive/folders/1datMe52uMlDHtTKbOooFJP5esqUNZD5f?usp=share_link. I was not able to upload these to GitHub because they were too large.
+
 The following files were used only for training, if you would like to see the training code, you can check them out but running them is not advised:
 * ``gan_s1_CelebA.py``
 * ``gan_s2_CelebA.py``
