@@ -21,3 +21,5 @@ The following files were used only for training, if you would like to see the tr
 You can see all of the main results in the Jupyter notebook ``testbench.ipynb``. The notebook already has pre-run results. However, you can re-run the cells to get novel outputs.
 
 Be advised, however, that the cells calculating the closest images in the training dataset for the VAEs have a long running time (about 30 minutes each in my case.)
+
+The code is written so that the CelebA and MNIST datasets are downloaded automatically at the start. However, in my case, PyTorch was unable to access the CelebA dataset mirror. In this case, you would have to procure the required CelebA dataset files (``mg_align_celeba.zip, list_attr_celeba.txt, identity_CelebA.txt, list_bbox_celeba.txt, list_landmarks_align_celeba.txt, list_eval_partition.txt``) from the following link: https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8?resourcekey=0-5BR16BdXnb8hVj6CNHKzLg.
